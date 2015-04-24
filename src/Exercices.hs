@@ -34,6 +34,3 @@ slow_fibo n
 --  Gives it the complexity O(N²)
 fibonacciSequence :: [Int]
 fibonacciSequence = 1 : 1 : zipWith (+) fibonacciSequence (tail fibonacciSequence)
-
---limitedFibonacciSequence :: Int -> [Int]
---limitedFibonacciSequence x =
